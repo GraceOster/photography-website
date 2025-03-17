@@ -1,11 +1,15 @@
 {
-    "scripts": {
-        "dev": "npx @tailwindcss/cli -i ./input.css -o ./main.css --watch",
-        "prod": "npx @tailwindcss/cli -i ./input.css -o ./main.css --minify"
-    },
-    "devDependencies": {
-        "@tailwindcss/cli": "^4.0.9",
-        "daisyui": "^5.0.0",
-        "tailwind": "^4.0.0"
-    }
+  "type": "module",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i input.css -o ./assets/main.css --watch",
+    "prod": "NODE_ENV=production npx @tailwindcss/cli -i input.css -o ./assets/main.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "daisyui": "^5.0.4",
+    "prettier": "^3.5.3",
+    "prettier-plugin-go-template": "^0.0.15",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.14"
+  }
 }

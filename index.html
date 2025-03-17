@@ -1,287 +1,491 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grace's Photography Website</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/main.css" />
+  </head>
+  <body>
     <main>
-      <div class="hero min-h-screen">
+      <div class="hero lg:h-[90vh]">
         <div class="hero-content justify-center">
-          <div class="hero-content flex-col lg:flex-row-reverse lg:gap-25">
+          <div
+            class="hero-content flex-col sm:gap-5 lg:flex-row-reverse lg:gap-15"
+          >
             <img
-            src="./assets/images/Headshot.jpeg"
-            alt="Image of Grace Oster"
-            class="max-w-xs rounded-lg shadow-2xl justify-center" />
+              src="assets/images/Headshot.jpeg"
+              alt="Image of Grace Oster"
+              class="max-w-xs justify-center rounded-lg shadow-2xl"
+              loading="eager"
+            />
             <div>
-              <h1 class="text-4xl font-bold text-center">Grace's Photography Collection</h1>
+              <h1 class="text-center text-4xl font-bold">
+                Grace's Photography Collection
+              </h1>
               <p class="py-6">
-                Hi, my name is Grace Oster. This is my personal photography collage. Enjoy!
+                Welcome to my personal photography collage! I'm Grace Oster, and
+                this space showcases my passion for capturing moments though
+                photography. Enjoy exploring my work, and stay tuned as I
+                continue to add more photos!
               </p>
               <div class="divider"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="p-10 w-full lg:grid lg:grid-cols-3 gap-4 justify-around">
-        <div class="w-100">
+      <div
+        class="relative grid w-screen justify-items-center gap-y-8 p-10 sm:grid-cols-1 lg:grid-cols-3"
+      >
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/beach.jpeg" alt="Image of Oregon Beach, Oregon, USA">
+            <img
+              src="assets/images/beach.jpeg"
+              alt="Image of Oregon Beach, Oregon, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
-            <h1 class="card-title">Let’s Go Fly a Kite</h1>
+            <h1 class="card-title">Let's Go Fly a Kite</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> March 28, 2023</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> March 28, 2023
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken on the Oregon Coast at sunset. My boyfriend had never flown a kite before, so we decided to change that.
+              This was taken on the Oregon Coast at sunset. My boyfriend had
+              never flown a kite before, so we decided to change that.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/blue_pool_forest.jpeg" alt="Image of Forest near Blue Pool, Oregon, USA">
+            <img
+              src="assets/images/blue_pool_forest.jpeg"
+              alt="Image of Forest near Blue Pool, Oregon, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Serene Hike with Dad</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> July 9, 2023</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> July 9, 2023
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken on a hike up to see Blue Pool with my dad. The hike was gorgeous, but it was hard to focus on anything but the blisters forming on my heels.
+              This was taken on a hike up to see Blue Pool with my dad. The hike
+              was gorgeous, but it was hard to focus on anything but the
+              blisters forming on my heels.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/anusarn_market.jpeg" alt="Image of Anusarn Market, Chiang Mai, Thailand">
+            <img
+              src="assets/images/anusarn_market.jpeg"
+              alt="Image of Anusarn Market, Chiang Mai, Thailand"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Anusarn Market</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> August 14, 2022</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> August 14, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken at a night market in Chiang Mai, Thailand during a service trip. People were bustling all around, with hundreds of vendors and buyers speaking in dozens of languages. 
+              This was taken at a night market in Chiang Mai, Thailand during a
+              service trip. People were bustling all around, with hundreds of
+              vendors and buyers speaking in dozens of languages.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/thai_field.jpeg" alt="Image of Rice Fields, Chiang Mai, Thailand">
+            <img
+              src="assets/images/thai_field.jpeg"
+              alt="Image of Rice Fields, Chiang Mai, Thailand"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Calm Before the Storm</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> August 14, 2024</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> August 14, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken on a hike across rice fields towards an elephant sanctuary in Chiang Mai, Thailand. Five minutes later, the sky filled with dark clouds and drenched us with rain.
+              This was taken on a hike across rice fields towards an elephant
+              sanctuary in Chiang Mai, Thailand. Five minutes later, the sky
+              filled with dark clouds and drenched us with rain.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/thai_food.jpeg" alt="Image of Thai Food, Chiang Mai, Thailand">
+            <img
+              src="assets/images/thai_food.jpeg"
+              alt="Image of Thai Food, Chiang Mai, Thailand"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Thai Cooking</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> August 13, 2024</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> August 13, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken in Chiang Mai, Thailand after I cooked a five-course meal in a Thai cooking class. I cooked Pad Thai, Tom Kha, Massaman Curry, and more shown in the photo. The food tasted beyond description. 
+              This was taken in Chiang Mai, Thailand after I cooked a
+              five-course meal in a Thai cooking class. I cooked Pad Thai, Tom
+              Kha, Massaman Curry, and more shown in the photo. The food tasted
+              beyond description.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/tuk_tuk.jpeg" alt="Image of Tuk Tuk, Chiang Mai, Thailand">
+            <img
+              src="assets/images/tuk_tuk.jpeg"
+              alt="Image of Tuk Tuk, Chiang Mai, Thailand"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Tuk Tuk Adventure</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> August 13, 2024</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> August 13, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken in Chiang Mai, Thailand after my friends and I wandered downtown for an hour, hopped in a Tuk Tuk, and got dropped oI at a random food market in Old Town. We stopped at the vendor shown on the left and devoured her dumplings quickly.
+              This was taken in Chiang Mai, Thailand after my friends and I
+              wandered downtown for an hour, hopped in a Tuk Tuk, and got
+              dropped off at a random food market in Old Town. We stopped at the
+              vendor shown on the left and devoured her dumplings quickly.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/thai_shoes.jpeg" alt="Image of Children’s Shoes, Chiang Mai, Thailand">
+            <img
+              src="assets/images/thai_shoes.jpeg"
+              alt="Image of Children's Shoes, Chiang Mai, Thailand"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Shoes to Fill</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> August 13, 2024</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> August 13, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken in Chiang Mai, Thailand at a vendor’s cart selling baby shoes and stuffed animals. The bright colors and unique patterns caught my eye. 
+              This was taken in Chiang Mai, Thailand at a vendor's cart selling
+              baby shoes and stuffed animals. The bright colors and unique
+              patterns caught my eye.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/jellyfish.jpeg" alt="Image of Jellyfish, Nebraska, USA">
+            <img
+              src="assets/images/jellyfish.jpeg"
+              alt="Image of Jellyfish, Nebraska, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Chrysaora Quinquecirrha</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> May 27, 2023</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> May 27, 2023
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken at the Lincoln Children’s Zoo in Lincoln, NE which I visited with my best friend and her siblings. This was my first time in a zoo, and probably my last due to an incident with an alligator.
+              This was taken at the Lincoln Children's Zoo in Lincoln, NE which
+              I visited with my best friend and her siblings. This was my first
+              time in a zoo, and probably my last due to an incident with an
+              alligator.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/mercer.jpeg" alt="Image of Mercer Lake, Florence, Oregon, USA">
+            <img
+              src="assets/images/mercer.jpeg"
+              alt="Image of Mercer Lake, Florence, Oregon, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Kayaking on Mercer Lake</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> May 20, 2024</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> May 20, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken on Mercer Lake in Florence, OR. This lake is one of my favorite places in the world; I wanted to capture this peaceful moment my friend and I shared on the lake I grew up playing and swimming in.
+              This was taken on Mercer Lake in Florence, OR. This lake is one of
+              my favorite places in the world; I wanted to capture this peaceful
+              moment my friend and I shared on the lake I grew up playing and
+              swimming in.
             </p>
           </div>
         </div>
-        <div class="max-w-200 w-full md:col-span-2">
+
+        <div class="card bg-base-200 max-w-240 shadow-sm md:col-span-2">
           <figure>
-            <img src="assets/images/whitworth.jpeg" alt="Image of Whitworth University in the snow, Washington, USA">
+            <img
+              src="assets/images/whitworth.jpeg"
+              alt="Image of Whitworth University in the snow, Washington, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Fall into Winter</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> November 7, 2022</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> November 7, 2022
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              I took this photo on Whitworth’s campus as a reminder that transitions can be beautiful. The leaves on the trees were just changing color and not ready for the snow, but the two seasons merged and created a masterpiece.
+              I took this photo on Whitworth's campus as a reminder that
+              transitions can be beautiful. The leaves on the trees were just
+              changing color and not ready for the snow, but the two seasons
+              merged and created a masterpiece.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/cows.jpeg" alt="Image of Hawaiian Cows near the coast of Maui, Hawaii, USA">
+            <img
+              src="assets/images/cows.jpeg"
+              alt="Image of Hawaiian Cows near the coast of Maui, Hawaii, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Hawaiian Cows</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> December 20, 2022</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> December 20, 2022
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken on the coast of Maui right before our swim team completed an ocean open-water swim. I never expected to see cows in Hawaii, but nevertheless they looked right at home on the beach.
+              This was taken on the coast of Maui right before our swim team
+              completed an ocean open-water swim. I never expected to see cows
+              in Hawaii, but nevertheless they looked right at home on the
+              beach.
             </p>
           </div>
         </div>
-          <div class="w-100">
-            <figure>
-              <img src="assets/images/northern_lights.jpeg" alt="Image of Northern Lights, Washington, USA">
-            </figure>
-            <div class="card-body">
-              <h1 class="card-title">Northern (Washington) Lights</h1>
-              <div class="flex justify-between">
-                <p class="card-title font-normal text-sm"><strong>Date:</strong> May 10, 2024</p>
-                <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
-              </div>
-              <p>
-                This was taken as I laid on top of my Chevy Blazer in the middle of a deserted road with my closest friends. This was my first time seeing northern lights, and it was a completely unexpected treat.
-              </p>
-            </div>
-          </div>
-          <div class="w-100">
-            <figure>
-              <img src="assets/images/flowers.jpeg" alt="Image of Flowers, Florence, Oregon, USA">
-            </figure>
-            <div class="card-body">
-              <h1 class="card-title">Flowers of Florence (Oregon, not Italy)</h1>
-              <div class="flex justify-between">
-                <p class="card-title font-normal text-sm"><strong>Date:</strong> July 30, 2022</p>
-                <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
-              </div>
-              <p>
-                This was taken in Florence, OR during the summer after my senior year. The vibrant flowers sat beautifully next to my mom’s favorite coffee shop, River Roasters.
-              </p>
-            </div>
-          </div>
-          <div class="w-100">
-            <figure>
-              <img src="assets/images/swimmers.jpeg" alt="Image of young competitive swimmers, Eugene, Oregon, USA">
-            </figure>
-            <div class="card-body">
-              <h1 class="card-title">“Ready, Set, Swim!”</h1>
-              <div class="flex justify-between">
-                <p class="card-title font-normal text-sm"><strong>Date:</strong> November 3, 2020</p>
-                <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>744 x 992</p>
-              </div>
-              <p>
-                This photo was taken at my club swim team’s practice for the team’s developing website. I caught a joyful moment shared between my teammates before we began a difficult set.
-              </p>
-            </div>
-          </div>
-        <div class="max-w-200 w-full  md:col-span-2">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/sunrise.jpeg" alt="Image of Sunrise on Spencer’s Butte, Eugene, Oregon, USA">
+            <img
+              src="assets/images/northern_lights.jpeg"
+              alt="Image of Northern Lights, Washington, USA"
+              loading="lazy"
+            />
+          </figure>
+          <div class="card-body">
+            <h1 class="card-title">Northern (Washington) Lights</h1>
+            <div class="flex justify-between">
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> May 10, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
+            </div>
+            <p>
+              This was taken as I laid on top of my Chevy Blazer in the middle
+              of a deserted road with my closest friends. This was my first time
+              seeing northern lights, and it was a completely unexpected treat.
+            </p>
+          </div>
+        </div>
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
+          <figure>
+            <img
+              src="assets/images/flowers.jpeg"
+              alt="Image of Flowers, Florence, Oregon, USA"
+              loading="lazy"
+            />
+          </figure>
+          <div class="card-body">
+            <h1 class="card-title">Flowers of Florence (Oregon, not Italy)</h1>
+            <div class="flex justify-between">
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> July 30, 2022
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
+            </div>
+            <p>
+              This was taken in Florence, OR during the summer after my senior
+              year. The vibrant flowers sat beautifully next to my mom's
+              favorite coffee shop, River Roasters.
+            </p>
+          </div>
+        </div>
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
+          <figure>
+            <img
+              src="assets/images/swimmers.jpeg"
+              alt="Image of young competitive swimmers, Eugene, Oregon, USA"
+              loading="lazy"
+            />
+          </figure>
+          <div class="card-body">
+            <h1 class="card-title">Ready, Set, Swim!</h1>
+            <div class="flex justify-between">
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> November 3, 2020
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 744 x 992
+              </p>
+            </div>
+            <p>
+              This photo was taken at my club swim team's practice for the
+              team's developing website. I caught a joyful moment shared between
+              my teammates before we began a difficult set.
+            </p>
+          </div>
+        </div>
+
+        <div class="card bg-base-200 max-w-240 shadow-sm md:col-span-2">
+          <figure>
+            <img
+              src="assets/images/sunrise.jpeg"
+              alt="Image of Sunrise on Spencer's Butte, Eugene, Oregon, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Sunrise Hike</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> June 20, 2022</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> June 20, 2022
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken at the top of Spencer’s Butte, a 3-mile hike in my hometown Eugene, OR. This view is extremely rewarding after the challenging hike up, especially at sunrise. This is my favorite hike to do with family and friends, as long as we bring a speaker to scare off the cougars.
+              This was taken at the top of Spencer's Butte, a 3-mile hike in my
+              hometown Eugene, OR. This view is extremely rewarding after the
+              challenging hike up, especially at sunrise. This is my favorite
+              hike to do with family and friends, as long as we bring a speaker
+              to scare off the cougars.
             </p>
           </div>
         </div>
-        <div class="w-100">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm">
           <figure>
-            <img src="assets/images/ellie.jpg" alt="Senior photo for high school senior, Portland, Oregon, USA">
+            <img
+              src="assets/images/ellie.jpeg"
+              alt="Senior photo for high school senior, Portland, Oregon, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
-            <h1 class="card-title">Ellie’s Senior Year</h1>
+            <h1 class="card-title">Ellie's Senior Year</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> December 31, 2024</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> December 31, 2024
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken in downtown Portland for my cousin, Ellie’s, senior photo submission. This photo perfectly captures her timid personality, style, and beauty. 
+              This was taken in downtown Portland for my cousin, Ellie's, senior
+              photo submission. This photo perfectly captures her timid
+              personality, style, and beauty.
             </p>
           </div>
         </div>
-        <div class="w-100 col-start-2">
+
+        <div class="card bg-base-200 max-w-120 shadow-sm lg:col-start-2">
           <figure>
-            <img src="assets/images/ruby.jpeg" alt="Image of Golden Retriever Ruby, Eugene, Oregon, USA">
+            <img
+              src="assets/images/ruby.jpeg"
+              alt="Image of Golden Retriever Ruby, Eugene, Oregon, USA"
+              loading="lazy"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">Golden Smile, Golden Heart</h1>
             <div class="flex justify-between">
-              <p class="card-title font-normal text-sm"><strong>Date:</strong> February 10, 2023</p>
-              <p class="card-title font-normal text-sm"><strong>Dimensions:</strong>3024 x 4032</p>
+              <p class="card-title text-sm font-normal">
+                <strong>Date:</strong> February 10, 2023
+              </p>
+              <p class="card-title text-sm font-normal">
+                <strong>Dimensions:</strong> 3024 x 4032
+              </p>
             </div>
             <p>
-              This was taken on a walk around the neighborhood with my dog, Ruby. She is the sweetest, gentlest girl who loves going on walks and getting her picture taken.
+              This was taken on a walk around the neighborhood with my dog,
+              Ruby. She is the sweetest, gentlest girl who loves going on walks
+              and getting her picture taken.
             </p>
           </div>
         </div>
       </div>
     </main>
-</body>
+  </body>
 </html>

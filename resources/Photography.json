@@ -1,0 +1,157 @@
+{
+  "data": [
+    {
+      "title": "Let's Go Fly a Kite",
+      "date": "March 28, 2023",
+      "dimensions": [3024, 4032],
+      "description": "This was taken on the Oregon Coast at sunset. My boyfriend had never flown a kite before, so we decided to change that.",
+      "asset": "assets/images/beach.jpeg",
+      "portrait": true,
+      "alt": "Image of Oregon Beach, Oregon, USA"
+    },
+    {
+      "title": "Serene Hike with Dad",
+      "date": "July 9, 2023",
+      "dimensions": [3024, 4032],
+      "description": "This was taken on a hike up to see Blue Pool with my dad. The hike was gorgeous, but it was hard to focus on anything but the blisters forming on my heels.",
+      "asset": "assets/images/blue_pool_forest.jpeg",
+      "portrait": true,
+      "alt": "Image of Forest near Blue Pool, Oregon, USA"
+    },
+    {
+      "title": "Anusarn Market",
+      "date": "August 14, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken at a night market in Chiang Mai, Thailand during a service trip. People were bustling all around, with hundreds of vendors and buyers speaking in dozens of languages.",
+      "asset": "assets/images/anusarn_market.jpeg",
+      "portrait": true,
+      "alt": "Image of Anusarn Market, Chiang Mai, Thailand"
+    },
+    {
+      "title": "Calm Before the Storm",
+      "date": "August 14, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken on a hike across rice fields towards an elephant sanctuary in Chiang Mai, Thailand. Five minutes later, the sky filled with dark clouds and drenched us with rain.",
+      "asset": "assets/images/thai_field.jpeg",
+      "portrait": true,
+      "alt": "Image of Rice Fields, Chiang Mai, Thailand"
+    },
+    {
+      "title": "Thai Cooking",
+      "date": "August 13, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken in Chiang Mai, Thailand after I cooked a five-course meal in a Thai cooking class. I cooked Pad Thai, Tom Kha, Massaman Curry, and more shown in the photo. The food tasted beyond description.",
+      "asset": "assets/images/thai_food.jpeg",
+      "portrait": true,
+      "alt": "Image of Thai Food, Chiang Mai, Thailand"
+    },
+    {
+      "title": "Tuk Tuk Adventure",
+      "date": "August 13, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken in Chiang Mai, Thailand after my friends and I wandered downtown for an hour, hopped in a Tuk Tuk, and got dropped off at a random food market in Old Town. We stopped at the vendor shown on the left and devoured her dumplings quickly.",
+      "asset": "assets/images/tuk_tuk.jpeg",
+      "portrait": true,
+      "alt": "Image of Tuk Tuk, Chiang Mai, Thailand"
+    },
+    {
+      "title": "Shoes to Fill",
+      "date": "August 13, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken in Chiang Mai, Thailand at a vendor's cart selling baby shoes and stuffed animals. The bright colors and unique patterns caught my eye.",
+      "asset": "assets/images/thai_shoes.jpeg",
+      "portrait": true,
+      "alt": "Image of Children's Shoes, Chiang Mai, Thailand"
+    },
+    {
+      "title": "Chrysaora Quinquecirrha",
+      "date": "May 27, 2023",
+      "dimensions": [3024, 4032],
+      "description": "This was taken at the Lincoln Children's Zoo in Lincoln, NE which I visited with my best friend and her siblings. This was my first time in a zoo, and probably my last due to an incident with an alligator.",
+      "asset": "assets/images/jellyfish.jpeg",
+      "portrait": true,
+      "alt": "Image of Jellyfish, Nebraska, USA"
+    },
+    {
+      "title": "Kayaking on Mercer Lake",
+      "date": "May 20, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken on Mercer Lake in Florence, OR. This lake is one of my favorite places in the world; I wanted to capture this peaceful moment my friend and I shared on the lake I grew up playing and swimming in.",
+      "asset": "assets/images/mercer.jpeg",
+      "portrait": true,
+      "alt": "Image of Mercer Lake, Florence, Oregon, USA"
+    },
+    {
+      "title": "Fall into Winter",
+      "date": "November 7, 2022",
+      "dimensions": [3024, 4032],
+      "description": "I took this photo on Whitworth's campus as a reminder that transitions can be beautiful. The leaves on the trees were just changing color and not ready for the snow, but the two seasons merged and created a masterpiece.",
+      "asset": "assets/images/whitworth.jpeg",
+      "portrait": false,
+      "alt": "Image of Whitworth University in the snow, Washington, USA"
+    },
+    {
+      "title": "Hawaiian Cows",
+      "date": "December 20, 2022",
+      "dimensions": [3024, 4032],
+      "description": "This was taken on the coast of Maui right before our swim team completed an ocean open-water swim. I never expected to see cows in Hawaii, but nevertheless they looked right at home on the beach.",
+      "asset": "assets/images/cows.jpeg",
+      "portrait": true,
+      "alt": "Image of Hawaiian Cows near the coast of Maui, Hawaii, USA"
+    },
+    {
+      "title": "Northern (Washington) Lights",
+      "date": "May 10, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken as I laid on top of my Chevy Blazer in the middle of a deserted road with my closest friends. This was my first time seeing northern lights, and it was a completely unexpected treat.",
+      "asset": "assets/images/northern_lights.jpeg",
+      "portrait": true,
+      "alt": "Image of Northern Lights, Washington, USA"
+    },
+    {
+      "title": "Flowers of Florence (Oregon, not Italy)",
+      "date": "July 30, 2022",
+      "dimensions": [3024, 4032],
+      "description": "This was taken in Florence, OR during the summer after my senior year. The vibrant flowers sat beautifully next to my mom's favorite coffee shop, River Roasters.",
+      "asset": "assets/images/flowers.jpeg",
+      "portrait": true,
+      "alt": "Image of Flowers, Florence, Oregon, USA"
+    },
+    {
+      "title": "Ready, Set, Swim!",
+      "date": "November 3, 2020",
+      "dimensions": [744, 992],
+      "description": "This photo was taken at my club swim team's practice for the team's developing website. I caught a joyful moment shared between my teammates before we began a difficult set.",
+      "asset": "assets/images/swimmers.jpeg",
+      "portrait": true,
+      "alt": "Image of young competitive swimmers, Eugene, Oregon, USA"
+    },
+    {
+      "title": "Sunrise Hike",
+      "date": "June 20, 2022",
+      "dimensions": [3024, 4032],
+      "description": "This was taken at the top of Spencer's Butte, a 3-mile hike in my hometown Eugene, OR. This view is extremely rewarding after the challenging hike up, especially at sunrise. This is my favorite hike to do with family and friends, as long as we bring a speaker to scare off the cougars.",
+      "asset": "assets/images/sunrise.jpeg",
+      "portrait": false,
+      "alt": "Image of Sunrise on Spencer's Butte, Eugene, Oregon, USA"
+    },
+    {
+      "title": "Ellie's Senior Year",
+      "date": "December 31, 2024",
+      "dimensions": [3024, 4032],
+      "description": "This was taken in downtown Portland for my cousin, Ellie's, senior photo submission. This photo perfectly captures her timid personality, style, and beauty.",
+      "asset": "assets/images/ellie.jpeg",
+      "portrait": true,
+      "alt": "Senior photo for high school senior, Portland, Oregon, USA"
+    },
+    {
+      "title": "Golden Smile, Golden Heart",
+      "date": "February 10, 2023",
+      "dimensions": [3024, 4032],
+      "description": "This was taken on a walk around the neighborhood with my dog, Ruby. She is the sweetest, gentlest girl who loves going on walks and getting her picture taken.",
+      "asset": "assets/images/ruby.jpeg",
+      "portrait": true,
+      "alt": "Image of Golden Retriever Ruby, Eugene, Oregon, USA"
+    }
+  ]
+}

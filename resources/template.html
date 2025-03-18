@@ -6,13 +6,11 @@
     <title>Grace's Photography Website</title>
     <link rel="stylesheet" href="assets/main.css" />
   </head>
-  <body>
-    <main>
-      <div class="hero lg:h-[90vh]">
+  <body class="m-0 overflow-x-hidden p-0">
+    <main class="mx-auto w-full">
+      <div class="hero w-full lg:h-[90vh]">
         <div class="hero-content justify-center">
-          <div
-            class="hero-content flex-col sm:gap-5 lg:flex-row-reverse lg:gap-15"
-          >
+          <div class="hero-content flex-col lg:flex-row-reverse lg:gap-15">
             <img
               src="assets/images/Headshot.jpeg"
               alt="Image of Grace Oster"
@@ -25,7 +23,7 @@
               </h1>
               <p class="py-6">
                 Welcome to my personal photography collage! I'm Grace Oster, and
-                this space showcases my passion for capturing moments though
+                this space showcases my passion for capturing moments through
                 photography. Enjoy exploring my work, and stay tuned as I
                 continue to add more photos!
               </p>
@@ -35,14 +33,19 @@
         </div>
       </div>
       <div
-        class="relative grid w-screen justify-items-center gap-y-8 p-10 sm:grid-cols-1 lg:grid-cols-3"
+        class="relative grid w-full max-w-screen justify-items-center sm:grid-cols-1 sm:gap-x-0 md:grid-cols-2 md:gap-y-8 md:p-10 lg:grid-cols-3"
       >
         {{ range .Data }}
         <div
-          class="card bg-base-200 {{ if .Portrait }}max-w-120{{ else }}max-w-240 md:col-span-2{{ end }} shadow-sm"
+          class="card bg-base-200 w-9/10 {{ if .Portrait }}{{ else }}md:col-span-2{{ end }} shadow-sm"
         >
           <figure>
-            <img src="{{ .Asset }}" alt="{{ .Alt }}" loading="lazy" />
+            <img
+              src="{{ .Asset }}"
+              alt="{{ .Alt }}"
+              loading="lazy"
+              class="w-full object-cover"
+            />
           </figure>
           <div class="card-body">
             <h1 class="card-title">{{ .Title }}</h1>
